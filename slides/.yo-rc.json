@@ -1,0 +1,8 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Getting Mean",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": false
+  }
+}

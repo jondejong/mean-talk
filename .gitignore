@@ -4,3 +4,5 @@ dist
 *.log
 .sass-cache
 index.html
+*idea
+*iml
