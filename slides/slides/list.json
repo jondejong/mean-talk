@@ -1,0 +1,52 @@
+[
+    "index.md",
+    "who-is-jon.md",
+    [
+        "mean/mean.md",
+        "mean/mean2.md"
+    ],
+    "package-managers.md",
+    [
+      "node/what-is-node.md",
+      "node/node2.md",
+      "node/node3.md",
+      "node/hello-world.md"
+    ],
+    [
+      "express/what-is-express.md",
+      "express/express.md",
+      "express/express2.md",
+      "express/express3.md",
+      "express/hello-universe.md"
+    ],
+    [
+      "mongo/what-is-mongodb.md",
+      "mongo/mongo1.md",
+      "mongo/mongo2.md",
+      "mongo/mongo3.md",
+      {
+        "attr": {
+            "data-background": "images/relational.png"
+        }
+      },
+      {
+        "attr": {
+            "data-background": "images/denormalized.png"
+        }
+      },
+      "mongo/hello-universe-with-things.md"
+    ],
+    [
+      "angular/what-is-angularjs.md",
+      "angular/angular.md",
+      "angular/angular2.md",
+      "angular/angular3.md",
+      "angular/angular4.md",
+      "angular/angular5.md",
+      "angular/hello-all-the-things.md"
+    ],
+    "coupling.md",
+    "templating.md",
+    "meanio.md",
+    "outtahere.md"
+]

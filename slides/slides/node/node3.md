@@ -1,0 +1,1 @@
+just write javascript
