@@ -12,7 +12,7 @@ To run the slides:
     bower install
     grunt serve
 
-There are two steps to run the final app. To launch the webservices:
+The app depends on MongodB intsance running on port 27017. During the talk, we used MongoDB version 3.0.1. There are two steps to run the final app. To launch the webservices:
 
     cd code/hello-universe-things
     npm install
