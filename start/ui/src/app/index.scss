@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700,700italic,400italic);
+
+html {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3 {
+  color: #ff5722
+}
+
+[layout=row] {
+  flex-direction: row;
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.thumbnail {
+  height: 200px;
+
+  img.pull-right {
+    width: 50px;
+  }
+}
+
+md-toolbar.md-default-theme {
+  background-color: black;
+}
+
+.dogs {
+
+  padding: 20px;
+
+  md-grid-tile {
+    outline: solid 1px black;
+    pading: 4px;
+  }
+}
+
+footer {
+  a {
+    color: #ff5722
+  }
+}
+
+/* Do not remove this comments bellow. It's the markers used by gulp-inject to inject
+   all your sass files automatically */
+// injector
+// endinjector

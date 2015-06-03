@@ -1,0 +1,23 @@
+{
+  "name": "Dog-List",
+  "version": "0.0.0",
+  "description": "Mean Talk -- Express Hello World",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jondejong/.git"
+  },
+  "author": "Jon DeJong",
+  "license": "ISC",
+  "bugs": {},
+  "homepage": "https://github.com/jondejong/mean-talk",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "express": "4.9.4",
+    "lodash": "^3.9.3",
+    "mongoose": "^4.0.4"
+  }
+}

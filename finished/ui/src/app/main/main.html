@@ -1,0 +1,19 @@
+<div layout="vertical">
+
+  <md-content layout-fill>
+    <header ng-include="'app/components/navbar/navbar.html'" ></header>
+
+    <section layout-fill>
+      <h1>Doggies!</h1>
+      <md-divider/>
+    </section>
+
+    <ui-view></ui-view>
+    <footer>
+      <md-toolbar layout="row" layout-align="center center">
+        <p>Tweet me: <a href="https://twitter.com/jondejong">@jondejong</a></p>
+      </md-toolbar>
+    </footer>
+  </md-content>
+
+</div>
