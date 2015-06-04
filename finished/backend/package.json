@@ -4,7 +4,7 @@
   "description": "Mean Talk -- Express Hello World",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./app.js"
+    "start": "node ./app.js"
   },
   "repository": {
     "type": "git",
