@@ -5,3 +5,5 @@
 Chief Technologist @objectpartners
 
 @jondejong
+
+[github.com/jondejong/mean-talk](https://github.com/jondejong/mean-talk)
