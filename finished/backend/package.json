@@ -1,22 +1,38 @@
 {
-  "name": "Dog-List",
-  "version": "0.0.0",
-  "description": "Mean Talk -- Express Hello World",
+  "name": "dogs-api",
+  "version": "1.0.0",
+  "description": "API for MEAN Stack Dogs App",
   "main": "app.js",
   "scripts": {
-    "start": "node ./app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jondejong/.git"
+    "url": "git+https://github.com/jondejong/mean-talk.git"
   },
   "author": "Jon DeJong",
   "license": "ISC",
-  "bugs": {},
-  "homepage": "https://github.com/jondejong/mean-talk",
+  "bugs": {
+    "url": "https://github.com/jondejong/mean-talk/issues"
+  },
+  "homepage": "https://github.com/jondejong/mean-talk#readme",
   "dependencies": {
-    "body-parser": "^1.12.2",
-    "express": "4.9.4",
-    "mongoose": "^4.0.4"
+    "async": "1.5.2",
+    "body-parser": "1.14.2",
+    "cors": "2.7.1",
+    "express": "4.13.4",
+    "fs-extra": "0.26.5",
+    "kerberos": "0.0.18",
+    "lodash": "4.1.0",
+    "mongodb": "2.1.4",
+    "mongoose": "4.4.0",
+    "path": "0.12.7"
+  },
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-jasmine": "2.2.1",
+    "gulp-nodemon": "2.0.6",
+    "jasmine": "2.4.1",
+    "proxyquire": "1.7.4"
   }
 }
