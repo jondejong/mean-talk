@@ -1,5 +1,12 @@
-'use strict';
+(function () {
+  'use strict';
 
-angular.module('ui')
-  .controller('MainCtrl', function ($http) {
-    });
+  angular
+      .module('ui')
+      .controller('MainController', MainController);
+
+  /** @ngInject */
+  function MainController() {
+
+  }
+})();

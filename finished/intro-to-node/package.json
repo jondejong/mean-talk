@@ -1,0 +1,24 @@
+{
+  "name": "intor-to-node",
+  "version": "1.0.0",
+  "description": "API for MEAN Stack Dogs App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jondejong/mean-talk.git"
+  },
+  "author": "Jon DeJong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jondejong/mean-talk/issues"
+  },
+  "homepage": "https://github.com/jondejong/mean-talk#readme",
+  "dependencies": {
+    "async": "1.5.2",
+    "fs-extra": "0.26.5",
+    "lodash": "4.1.0"
+  }
+}
