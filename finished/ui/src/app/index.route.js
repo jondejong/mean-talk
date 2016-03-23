@@ -22,9 +22,15 @@
         })
         .state('home.new', {
           url: '/new',
-          templateUrl: 'app/components/adddog/adddog.html',
+          templateUrl: 'app/components/editdog/editdog.html',
           controller: 'AddDogController',
-          controllerAs: 'addDog'
+          controllerAs: 'editDog'
+        })
+        .state('home.edit', {
+          url: '/edit/:id',
+          templateUrl: 'app/components/editdog/editdog.html',
+          controller: 'EditDogController',
+          controllerAs: 'editDog'
         });
 
     $urlRouterProvider.otherwise('/home/dogs');
