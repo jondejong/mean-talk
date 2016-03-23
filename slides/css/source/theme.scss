@@ -1,67 +1,68 @@
 /**
- * Default theme for reveal.js.
+ * Sky theme for reveal.js.
  *
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 
-// This file has been copied over from
-// ../../bower_components/reveal.js/css/theme/source/default.scss
 
 // Default mixins and settings -----------------
-@import "../../bower_components/reveal.js/css/theme/template/mixins";
-@import "../../bower_components/reveal.js/css/theme/template/settings";
+@import "../template/mixins";
+@import "../template/settings";
 // ---------------------------------------------
 
-// Include theme-specific fonts ----------------
-@font-face {
-        font-family: 'League Gothic';
-        src: url('../bower_components/reveal.js/lib/font/league_gothic-webfont.eot');
-        src: url('../bower_components/reveal.js/lib/font/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
-                 url('../bower_components/reveal.js/lib/font/league_gothic-webfont.woff') format('woff'),
-                 url('../bower_components/reveal.js/lib/font/league_gothic-webfont.ttf') format('truetype'),
-                 url('../bower_components/reveal.js/lib/font/league_gothic-webfont.svg#LeagueGothicRegular') format('svg');
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
 
-        font-weight: normal;
-        font-style: normal;
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Open Sans', sans-serif;
+$mainColor: #333;
+$headingFont: 'Quicksand', sans-serif;
+$headingColor: #333;
+$headingLetterSpacing: -0.08em;
+$headingTextShadow: none;
+$backgroundColor: #f7fbfc;
+$linkColor: #3b759e;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: #134674;
+$mainFontSize: 28px;
+
+// Fix links so they are not cut off
+.reveal a {
+	line-height: 1.3em;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-// ---------------------------------------------
-
-// Override theme settings ---------------------
-$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
-// Other options include e.g.
-// $mainFont: 'Open Sans', sans-serif;
-// $linkColor: #ed1dff;
-// $linkColorHover: $linkColor;
-// $headingFont: 'Montserrat', Impact, sans-serif;
-// $headingTextShadow: none;
-// $headingLetterSpacing: -0.03em;
-// $headingTextTransform: none;
-// $selectionBackgroundColor: #e0ad52;
-// $mainFontSize: 30px;
-// See ../../bower_components/reveal.js/css/theme/template/settings.scss for the full list.
-// ---------------------------------------------
-
-$linkColor: #DF0101;
-
-// Background generator ------------------------
+// Background generator
 @mixin bodyBackground() {
-        @include radial-gradient( rgba(28,30,32,1), rgba(85,90,95,1) );
+	@include radial-gradient( #add9e4, #f7fbfc );
 }
-// ---------------------------------------------
 
 // Theme template ------------------------------
-@import "../../bower_components/reveal.js/css/theme/template/theme";
+@import "../template/theme";
 // ---------------------------------------------
 
-// See ../../bower_components/reveal.js/css/theme/README.md
-// for further explanations on how reveal.js themes work.
-
-body {
-    background-image: url('../images/logo.gif');
+.intro {
+    background-image: url('../resources/logo.gif');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 50px 50px;
     background-size: 20%;
+}
+
+.logo-section {
+	background-image: url('..resources/logo.gif');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50px 50px;
+	background-size: 20%;
+}
+
+.slide-header {
+
+}
+
+.reveal section img {
+   border: 0;
+    box-shadow: none;
 }

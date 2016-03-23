@@ -1,7 +1,8 @@
-# Generated on 2015-03-20 using generator-reveal 0.4.0
+# Generated on 2016-03-18 using generator-reveal 0.5.8
 module.exports = (grunt) ->
 
     grunt.initConfig
+        pkg: grunt.file.readJSON 'package.json'
 
         watch:
 
@@ -13,6 +14,7 @@ module.exports = (grunt) ->
                     'slides/{,*/}*.{md,html}'
                     'js/*.js'
                     'css/*.css'
+                    'resources/**'
                 ]
 
             index:
@@ -80,6 +82,7 @@ module.exports = (grunt) ->
                         'bower_components/**'
                         'js/**'
                         'css/*.css'
+                        'resources/**'
                     ]
                     dest: 'dist/'
                 },{
